@@ -57,14 +57,17 @@ AUC: 0.85
 Higher AUC but less consistent performance in distinguishing between classes.
 
 Limitations:
+
 Recall for churn prediction was low in initial models, highlighting a need for further refinement.
 
 Key Insights
+
 Churn Correlation: Customers with high service charges or frequent customer service calls were more likely to churn.
 Service Preferences: Evening and night call usage dominated, suggesting tailored tariff plans could improve retention.
 Plan Effectiveness: International and voice mail plans showed varying impacts on churn behavior.
 
 Recommendations
+
 Target High-Risk Customers:
 Offer personalized incentives (e.g., discounts, loyalty rewards).
 Address concerns of high-risk customers proactively.
@@ -78,6 +81,7 @@ Optimize Pricing Plans:
 Offer competitive bundles to retain cost-sensitive customers.
 
 Next Steps
+
 Refine the Model: Experiment with advanced algorithms like XGBoost or CatBoost.
 Focus on improving recall to identify more churners.
 Deploy the Model: Build a real-time dashboard for churn predictions.
@@ -85,5 +89,6 @@ Collaborate with business teams to validate and act on predictions.
 Continuous Improvement: Update the model with fresh data to adapt to evolving customer behavior.
 
 Tools and Technologies
+
 Languages: Python (pandas, numpy, matplotlib, seaborn, scikit-learn).
 Environment: Jupyter Notebook.
