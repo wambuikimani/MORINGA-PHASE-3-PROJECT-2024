@@ -19,6 +19,7 @@ Provide actionable insights to stakeholders like the Customer Retention, Marketi
 Help mitigate financial losses through targeted customer retention strategies.
 
 Data Understanding
+
 Source: The dataset, sourced from Kaggle, contains 3,333 customer records with 20 attributes, including demographics, usage patterns, and subscription details.
 
 Key Features:
